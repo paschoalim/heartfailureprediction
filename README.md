@@ -53,7 +53,7 @@ heartfailureprediction/          # Diretório raiz do projeto
 
 1. **Clonar o repositório**
    ```bash
-   git clone https://github.com/seu-usuario/heartfailureprediction.git
+   git clone https://github.com/paschoalim/heartfailureprediction.git
    cd heartfailureprediction
    ```
 2. **Abrir no Android Studio**
