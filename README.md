@@ -93,7 +93,7 @@ O dataset utilizado para treinar o modelo está disponível no Kaggle em:
 
 [https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction)
 
-Este conjunto de dados contém 299 registros de pacientes com 12 variáveis clínicas (como idade, sexo, tipo de dor no peito, pressão arterial em repouso, etc.) e uma variável alvo indicando o óbito por insuficiência cardíaca dentro de um ano. No notebook `Heart_Failure_Prediction.ipynb`, realizamos:
+Este conjunto de dados contém 918 registros de pacientes com 11 variáveis clínicas (como idade, sexo, tipo de dor no peito, pressão arterial em repouso, etc.) e uma variável alvo indicando o óbito por insuficiência cardíaca dentro de um ano. No notebook `Heart_Failure_Prediction.ipynb`, realizamos:
 
 1. Download e carregamento dos dados
 2. Análise exploratória e tratamento de valores ausentes
