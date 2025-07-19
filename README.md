@@ -71,17 +71,17 @@ Por padrão, o array de entrada (`inputData`) está definido em `MainActivity.ja
 
 ```java
 float[] inputData = new float[]{
-    1.0f,   // Sex: Masculino (0: Feminino, 1: Masculino)
-    2.0f,   // ChestPainType (0–3)
-    160.0f, // RestingBP
-    180.0f, // Cholesterol
-    0.0f,   // FastingBS (0: ≤ 120 mg/dl, 1: > 120 mg/dl)
-    0.0f,   // RestingECG (0–2)
-    156.0f, // MaxHR
-    0.0f,   // ExerciseAngina (0: Não, 1: Sim)
-    1.0f,   // Oldpeak
-    1.0f,   // ST_Slope (0–2)
-    0.0f    // [Exemplo de feature extra]
+                    40.0f,   // Age (exemplo)
+                    1.0f, // Sex: Masculino (exemplo)
+                    1.0f, // ChestPainType: TA (exemplo)
+                    140.0f, // RestingBP
+                    289.0f,   // Cholesterol
+                    0.0f,   // FastingBS: maior que 120 mg/dl (exemplo)
+                    0.0f,   // RestingECG: ST (exemplo)
+                    172.0f, // MaxHR
+                    0.0f,   // ExerciseAngina: Sim (exemplo)
+                    0.0f,   // Oldpeak
+                    0.0f,   // ST_Slope: Up (exemplo)
 };
 ```
 
