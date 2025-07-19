@@ -47,17 +47,18 @@ public class MainActivity extends AppCompatActivity {
 
             // Preparar os dados de entrada
             float[] inputData = new float[]{
+                    40.0f,   // ST_Slope: Up (exemplo)
                     1.0f, // Sex: Masculino (exemplo)
-                    2.0f, // ChestPainType: TA (exemplo)
-                    160.0f, // RestingBP
-                    180.0f,   // Cholesterol
+                    1.0f, // ChestPainType: TA (exemplo)
+                    140.0f, // RestingBP
+                    289.0f,   // Cholesterol
                     0.0f,   // FastingBS: maior que 120 mg/dl (exemplo)
                     0.0f,   // RestingECG: ST (exemplo)
-                    156.0f, // MaxHR
+                    172.0f, // MaxHR
                     0.0f,   // ExerciseAngina: Sim (exemplo)
-                    1.0f,   // Oldpeak
-                    1.0f,   // ST_Slope: Up (exemplo)
-                    0.0f    // ST_Slope: Up (exemplo)
+                    0.0f,   // Oldpeak
+                    0.0f,   // ST_Slope: Up (exemplo)
+
             };
 
             long[] shape = new long[]{1, inputData.length};
