@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
             // Preparar os dados de entrada
             float[] inputData = new float[]{
-                    40.0f,   // ST_Slope: Up (exemplo)
+                    40.0f,   // Age (exemplo)
                     1.0f, // Sex: Masculino (exemplo)
                     1.0f, // ChestPainType: TA (exemplo)
                     140.0f, // RestingBP
